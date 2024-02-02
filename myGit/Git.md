@@ -7,8 +7,7 @@ git config --global user.name 'TY02'
 #设置邮箱
 git config --global user.email 'ty02@gmail.com'
 #检查信息
-git config --list    # 通过q退出
-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
+git config --list    # 通过q退出; vim-:q
 ```
 
 ## 连接GitLab
