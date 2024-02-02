@@ -10,6 +10,16 @@ git config --global user.email 'ty02@gmail.com'
 git config --list    # 通过q退出; vim-:q
 ```
 
+## 连接GitHub
+为GitHub添加SSH keys
+- 进入：cd ~/.ssh
+- 生成ssh密钥：ssh-keygen -t rsa -C "email@xxx.com"
+- 忽略密码输入
+- 添加ssh: ssh-add ~/.ssh/id_rsa
+- 官网设置新的key, 查看key: vim ~/.ssh/id_rsa.pub
+
+
+
 ## 连接GitLab
 为GitLab添加SSH keys
 - 1、打开git Bash，并输入：ssh-keygen -t rsa -C "user_test@user.test"，其中 "user_test@user.test"为自己的账号
