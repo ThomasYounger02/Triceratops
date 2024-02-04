@@ -1,5 +1,3 @@
-
-
 # 去最值后求平均
 def cal_mean(series, type=None):
     series.sort()
@@ -13,5 +11,3 @@ def cal_mean(series, type=None):
     	new_series = series 
     mean_value = sum(new_series)/len(new_series)
     return mean_value
-
-

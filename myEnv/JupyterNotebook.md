@@ -29,3 +29,9 @@ conda install -c conda-forge jupyter_nbextensions_configurator
 - “自定义索引词”最好是英文，较长的词可以用下划线连接。
 - “a标签”出现在想要被跳转到的文章位置，html标签除了单标签外均要符合“有头（`<a>`）必有尾（`</a>`）”的原则。头尾之间的“跳转提示”是可有可无的。
 - “a标签”中的“id”值即是为正文中添加链接时设定的“自定义索引值”，这里通过“id”的值实现从正文的链接跳转至指定位置的功能。
+
+# 导出幻灯片
+```shell
+jupyter-nbconvert --to slides Markdown.ipynb --output Python_Share
+jupyter-nbconvert --to slides test.ipynb --reveal-prefix  'https://cdn.bootcss.com/reveal.js/3.5.0' --output test
+```

@@ -22,8 +22,11 @@ import numpy as np
 > 并列插入引用   
 
 ## 数学公式
-使用**$$**前后包裹代码块。   
-$$(w^*,b^*)=arg min\sum_{i=1}^{m}{(y_i-wx_i-b)^2}$$
+使用**$$**前后包裹代码块。 
+```LaTex
+$$(w^*,b^*)=arg min\sum_{i=1}^{m}{(y_i-wx_i-b)^2}$$   
+$$   P ( A mid B ) = frac{P ( B mid A ) , P ( A ) }{P ( B ) } $$
+```
 
 # 字符串
 ## 颜色
