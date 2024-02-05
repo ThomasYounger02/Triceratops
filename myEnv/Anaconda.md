@@ -11,6 +11,9 @@ conda update anaconda
 
 #利用yml文件新建环境
 conda env create -f environment.yml
+
+conda create --name environmentname
+source activate environmentname
 ```
 
 # 利用yml创建环境

@@ -61,3 +61,15 @@ warnings.filterwarnings('ignore')
 # 省略plt.show()
 %matplotlib inline  
 ```
+
+# 在终端运行脚本
+```python
+#在终端运行文件
+nohup python /../file.py
+
+#查看文件进程
+ps aux|grep python
+
+#结束
+kill XXXX
+```
