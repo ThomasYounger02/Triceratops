@@ -50,4 +50,18 @@ jupyter-nbconvert --to slides Markdown.ipynb --output Python_Share
 jupyter-nbconvert --to slides test.ipynb --reveal-prefix  'https://cdn.bootcss.com/reveal.js/3.5.0' --output test
 ```
 
+# 插入图片
+- Markdown方式
+- 代码方式
+```python
+from IPython.display import Image
+Image(filename='./pics/pic_name.jpg', width=200, height=200)
+```
+- 魔法命令
+```python
+%%html 
+Image(filename='./pics/pic_name.jpg', width=200, height=200)
+Image(filename='./pics/pic_name.jpg', width="40%")
+```
+
 # 使用R内核

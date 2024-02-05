@@ -10,9 +10,19 @@
 import pandas as pd
 import numpy as np
 ```
-## 图拍呢
-- 插入本地图片
+## 图片
+ 
+```markdown
+- 插入同根目录下图片  
 ![sublime text](sublime text.jpg)
+
+- 插入文件夹内图片   
+![browser_principle](pics/browser_principle.png)
+
+- 调整图片大小   
+<img src="pics/browser_principle.png" width="40%">
+<img src="pics/browser_principle.png" width=200 height=200>
+```
 
 ## 插入超链接
 [百度](https://www.baidu.com/)
@@ -21,11 +31,12 @@ import numpy as np
 > 插入引用，后面用三个空格换行。   
 > 并列插入引用   
 
-## 数学公式
+## 数学公式-不起作用
 使用**$$**前后包裹代码块。 
+$(w^*,b^*)=arg min\sum_{i=1}^{m}{(y_i-wx_i-b)^2}$  
 ```LaTex
-$$(w^*,b^*)=arg min\sum_{i=1}^{m}{(y_i-wx_i-b)^2}$$   
-$$   P ( A mid B ) = frac{P ( B mid A ) , P ( A ) }{P ( B ) } $$
+$(w^*,b^*)=arg min\sum_{i=1}^{m}{(y_i-wx_i-b)^2}$  
+$   P ( A mid B ) = frac{P ( B mid A ) , P ( A ) }{P ( B ) } $
 ```
 
 # 字符串
