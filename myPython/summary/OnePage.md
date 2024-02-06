@@ -15,8 +15,8 @@ conda install -c anaconda pandas
 conda install scikit-learn
 
 #安装cv2
-conda install opencv   #网速太慢
-pip install opencv-python    #可以
+conda install opencv         # 网速太慢
+pip install opencv-python    # 可以
 
 #其他包
 pip install Pillow
@@ -42,8 +42,9 @@ python -V
 pip list
 conda list
 
-# 包版本
-print(sns.__version__)
+print(sns.__version__)   # 包版本
+print(os.__file__)       # 包位置
+print(dir(os))           # 包结构、模块
 ```
 
 # 常用代码

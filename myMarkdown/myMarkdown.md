@@ -4,6 +4,16 @@
 *这里是斜体内容*
 
 # 插入
+## 无序列表
+- 第一
+- 第二
+
+## 有序列表
+1. first
+    1. first one
+    2. first two
+2. second
+
 ## 代码块
 使用**3个反引号或者3个波浪号**前后包裹代码块。
 ```python
@@ -11,7 +21,6 @@ import pandas as pd
 import numpy as np
 ```
 ## 图片
- 
 ```markdown
 - 插入同根目录下图片  
 ![sublime text](sublime text.jpg)                # 注意！文件名没有引号包裹！
@@ -30,14 +39,12 @@ import numpy as np
 ## 引用
 > 插入引用，后面用三个空格换行。   
 > 并列插入引用   
+>> 第二层
+>>> 第三层
 
-## 数学公式-不起作用
-使用**$$**前后包裹代码块。 
-$(w^*,b^*)=arg min\sum_{i=1}^{m}{(y_i-wx_i-b)^2}$  
-```LaTex
-$(w^*,b^*)=arg min\sum_{i=1}^{m}{(y_i-wx_i-b)^2}$  
-$   P ( A mid B ) = frac{P ( B mid A ) , P ( A ) }{P ( B ) } $
-```
+## 数学公式
+$$f(x_i)=wx_i+b$$
+[markdown数学公式](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
 
 # 字符串
 ## 颜色
@@ -84,7 +91,10 @@ size为10：<font size="10">size为10</font><br />
 <table><tr><td bgcolor=#54FF9F>背景色的设置是按照十六进制颜色值：#54FF9F</td></tr></table>
 
 
-# NG 
+# 学习材料
 ## 长分割线
 ---
 ---
+
+## 语法文档
+[markdown语法](https://xianbai.me/learn-md/article/syntax/paragraphs-and-line-breaks.html)

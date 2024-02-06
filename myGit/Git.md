@@ -128,6 +128,5 @@ See also: #456, #789
 # 备用信息
 `首页`
 - [GitHub](https://github.com/)
-- [GitHub](https://github.com/)
 - [DiDi](git@git.xiaojukeji.com:{name}/ivoryshark.git)
 - [Ant](gitlab.alibaba-inc.com)
