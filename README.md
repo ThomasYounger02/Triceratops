@@ -1,5 +1,5 @@
 # Triceratops
-[traɪˈserətɑːps]   
+**[traɪˈserətɑːps]**    
 **Material** is not **KNOWLEDGE**， knowledge is not **INSIGHT**， insight is not **EXPERIENCE**.
 - 从材料中学习知识；
 - 从知识中总结洞察；

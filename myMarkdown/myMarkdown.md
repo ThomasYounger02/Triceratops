@@ -14,7 +14,7 @@ import numpy as np
  
 ```markdown
 - 插入同根目录下图片  
-![sublime text](sublime text.jpg)
+![sublime text](sublime text.jpg)                # 注意！文件名没有引号包裹！
 
 - 插入文件夹内图片   
 ![browser_principle](pics/browser_principle.png)
@@ -63,10 +63,10 @@ size为4：<font size="4">size为4</font><br />
 size为10：<font size="10">size为10</font><br /> 
 
 ## 位置
-<p align="right">右对齐</p>
-<center>居中</center>
-<p align="left">左对齐</p>
-下标<sub>下标</sub>
+<p align="right">右对齐</p>   
+<center>居中</center>   
+<p align="left">左对齐</p>   
+下标<sub>下标</sub>   
 上标<sup>上标</sup>
 
 ## 字体
